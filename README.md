@@ -6,10 +6,10 @@
 
 ## 更新内容
 
-- `_pages/about.md`：个人简介、News、教育、实习、奖项。
+- `_pages/about.md`：个人简介、教育、实习单位、奖项。
 - `_data/publications.yml`：论文题目、完整作者、会议/期刊、论文与代码链接；`type` 为 `publication` 或 `preprint`。
 - `_config.yml`：姓名、学术邮箱、Google Scholar、GitHub 与网站地址。
-- `images/avatar.jpg`：个人照片。
+- `images/avatar-20261106.jpg`：当前个人照片。
 - `_data/navigation.yml`：顶部导航。
 - `assets/css/custom.css`：在原模板上增加的样式与手机适配。
 

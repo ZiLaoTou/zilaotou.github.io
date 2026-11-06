@@ -1,5 +1,5 @@
 title: "Ruike Cao (曹瑞珂)"
-description: "Ruike Cao is a Ph.D. student at USTC working on agentic reinforcement learning, agent memory, personalization, and medical AI."
+description: "Ruike Cao is a Ph.D. student at USTC working on Personal Agent, Agentic RL, Agent Memory, and medical image analysis."
 url: "https://zilaotou.github.io"
 baseurl: ""
 repository: "ZiLaoTou/zilaotou.github.io"
@@ -7,7 +7,7 @@ lang: en
 timezone: Asia/Shanghai
 author:
   name: "Ruike Cao (曹瑞珂)"
-  avatar: "/images/avatar.jpg"
+  avatar: "/images/avatar-20261106.jpg"
   bio: "Ph.D. Student @ USTC"
   location: "Hefei, China"
   employer: "University of Science and Technology of China"
