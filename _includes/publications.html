@@ -10,6 +10,7 @@
       <a class="paper-link-badge" href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper<span class="screen-reader-text">: {{ paper.title }}</span></a>
       {% if paper.pdf %}<a class="paper-link-badge" href="{{ paper.pdf }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF<span class="screen-reader-text">: {{ paper.title }}</span></a>{% endif %}
       {% if paper.code %}<a class="paper-link-badge" href="{{ paper.code }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code<span class="screen-reader-text">: {{ paper.title }}</span></a>{% endif %}
+      {% if paper.homepage %}<a class="paper-link-badge homepage-badge" href="{{ paper.homepage }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-home" aria-hidden="true"></i> Homepage<span class="screen-reader-text">: {{ paper.title }}</span></a>{% endif %}
     </div>
   </li>
   {% endif %}

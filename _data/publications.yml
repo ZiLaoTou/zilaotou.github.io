@@ -12,6 +12,7 @@
   type: publication
   paper: "https://aclanthology.org/2026.findings-emnlp.247/"
   pdf: "https://aclanthology.org/2026.findings-emnlp.247.pdf"
+  code: "https://github.com/Quark-Medical/COPE"
   summary: "Continual personalization through learnable user embeddings and calibrated self-evaluation, enabling preference adaptation under sparse user feedback."
 - title: "Cooperative Multiplex GNN for High-Grade Glioma Survival Prediction from Preoperative Multi-Modal Radiomics-Based Brain Networks"
   authors: "Ruike Cao*, Xingcan Hu*, Li Xiao, Gang Qu, Haiye Huo, Vince D. Calhoun, Yu-Ping Wang, Xiaoyan Sun"
@@ -32,6 +33,8 @@
   type: preprint
   paper: "https://arxiv.org/abs/2609.24259"
   pdf: "https://arxiv.org/pdf/2609.24259"
+  code: "https://github.com/Quark-Medical/MemCalib"
+  homepage: "https://quark-medical.github.io/MemCalib-Project/"
   summary: "Benchmarking and improving how LLM agents use retrieved memories during decision making."
 - title: "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents"
   authors: "Fanyu Zhao*, Ruike Cao*, Liang Dong, Fugen Yao, Jian Xu, Guanjun Jiang, Han Zhang, Yifei Zhao, Yinsheng Li"
@@ -40,4 +43,5 @@
   paper: "https://arxiv.org/abs/2609.23466"
   pdf: "https://arxiv.org/pdf/2609.23466"
   code: "https://github.com/Quark-Medical/rpmem"
+  homepage: "https://quark-medical.github.io/RPMem/"
   summary: "Recurrent parametric memory that evolves across sessions and supports memory reuse when an agent's backbone model changes."
