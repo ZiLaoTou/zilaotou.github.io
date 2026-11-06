@@ -13,7 +13,7 @@ redirect_from:
 
 I am a **Ph.D. student** in Information and Communication Engineering at the [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/), advised by **[Prof. Li Xiao](https://scholar.google.com/citations?user=h3Wjbp8AAAAJ&hl=zh-CN)**. I began my graduate studies at USTC in 2024 and entered the Ph.D. program in September 2026. Before that, I received my B.E. in Communication Engineering from [Anhui University](https://www.ahu.edu.cn/) in 2024.
 
-My research interests include **Personal Agent**, **Agentic RL**, and **Agent Memory**. I also have research experience in **medical image analysis**. Since June 2025, I have been a research intern at **Alibaba's Qwen Consumer Business Group**, working on **LLM post-training**.
+My research interests include **Personal Agent**, **Agentic RL**, and **Agent Memory**. I also have research experience in **medical image analysis**. Since June 2025, I have been a research intern at **Qwen Business Unit of Alibaba**, working on **LLM post-training**.
 
 I am happy to discuss research and potential collaborations. Feel free to [email me](mailto:ustc_crk@mail.ustc.edu.cn)!
 
@@ -42,7 +42,7 @@ I am happy to discuss research and potential collaborations. Feel free to [email
 <span class="anchor" id="experience"></span>
 # 💻 Research Experience
 
-- **2025.06 – Present · Alibaba, Qwen Consumer Business Group**
+- **2025.06 – Present · Qwen Business Unit of Alibaba**
 - **2024.06 – 2026.02 · Institute of Artificial Intelligence, Hefei Comprehensive National Science Center**
 
 <span class="anchor" id="honors"></span>

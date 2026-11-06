@@ -1,5 +1,5 @@
 - title: "ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue"
-  authors: "Ruike Cao, Shaojie Bai, Fugen Yao, Liang Dong, Jian Xu, Li Xiao"
+  authors: "Ruike Cao*, Shaojie Bai*, Fugen Yao, Liang Dong, Jian Xu, Li Xiao"
   venue: "ICLR 2026"
   type: publication
   paper: "https://arxiv.org/abs/2603.02216"
@@ -27,14 +27,14 @@
   paper: "https://doi.org/10.1016/j.jiixd.2026.03.006"
   summary: "Joint prediction of cognitive abilities from multi-paradigm functional MRI using graph propagation and attention across views and tasks."
 - title: "MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents"
-  authors: "Ruike Cao, Fanyu Zhao, Fugen Yao, Liang Dong, Jian Xu, Yifei Zhao, Han Zhang, Li Xiao"
+  authors: "Ruike Cao*, Fanyu Zhao*, Fugen Yao, Liang Dong, Jian Xu, Yifei Zhao, Han Zhang, Li Xiao"
   venue: "arXiv preprint, 2026"
   type: preprint
   paper: "https://arxiv.org/abs/2609.24259"
   pdf: "https://arxiv.org/pdf/2609.24259"
   summary: "Benchmarking and improving how LLM agents use retrieved memories during decision making."
 - title: "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents"
-  authors: "Fanyu Zhao, Ruike Cao, Liang Dong, Fugen Yao, Jian Xu, Guanjun Jiang, Han Zhang, Yifei Zhao, Yinsheng Li"
+  authors: "Fanyu Zhao*, Ruike Cao*, Liang Dong, Fugen Yao, Jian Xu, Guanjun Jiang, Han Zhang, Yifei Zhao, Yinsheng Li"
   venue: "arXiv preprint, 2026"
   type: preprint
   paper: "https://arxiv.org/abs/2609.23466"
