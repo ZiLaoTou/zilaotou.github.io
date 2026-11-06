@@ -1,0 +1,13 @@
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav class="homepage-nav" aria-label="Main navigation">
+      <a class="home-link" href="{{ '/' | relative_url }}">Ruike Cao</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><i class="fas fa-bars" aria-hidden="true"></i><span class="screen-reader-text">Toggle navigation</span></button>
+      <ul id="nav-links" class="nav-links">
+      {% for link in site.data.navigation.main %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

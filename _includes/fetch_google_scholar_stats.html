@@ -1,0 +1,19 @@
+<script>
+    $(document).ready(function () {
+        $.getJSON("{{ '/gs_data.json' | relative_url }}?v={{ site.time | date: '%s' }}", function (data) {
+            var totalCitation = data['citedby']
+            var totalCitationElement = document.getElementById('total_cit')
+            if (totalCitationElement) {
+                totalCitationElement.innerHTML = totalCitation;
+            }
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var paper = data['publications'][paperId]
+                if (paper) {
+                    element.innerHTML = '| Citations: ' + paper['num_citations'];
+                }
+            });
+        });
+    })
+</script>

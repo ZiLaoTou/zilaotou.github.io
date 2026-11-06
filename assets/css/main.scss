@@ -1,0 +1,231 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+.compact-section {
+    font-size: 1.02rem;
+
+    p,
+    li,
+    dl,
+    span[style*="font-size"] {
+        font-size: inherit !important;
+    }
+}
+
+.page__content a.hf-paper-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    min-height: 20px;
+    padding: 0 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    background: #fff7d6;
+    font-size: 11px;
+    line-height: 18px;
+    text-decoration: none;
+    vertical-align: middle;
+
+    img {
+        width: 14px;
+        height: 14px;
+        border: 0;
+        box-shadow: none;
+    }
+
+    &:hover {
+        color: #111;
+        background: #ffefad;
+        text-decoration: none;
+    }
+}
+
+.page__content a.paper-link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 20px;
+    padding: 0 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    background: #fff;
+    font-size: 11px;
+    line-height: 18px;
+    text-decoration: none;
+    vertical-align: middle;
+
+    i {
+        font-size: 12px;
+    }
+
+    &.homepage-badge i {
+        color: #2563eb;
+    }
+
+    &.blog-badge i {
+        color: #07c160;
+    }
+
+    &:hover {
+        color: #111;
+        background: #f7f7f7;
+        text-decoration: none;
+    }
+}
+
+.page__content {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .paper-title {
+        font-size: 1.02rem !important;
+        line-height: 1.45;
+        letter-spacing: -0.01em;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    .paper-authors {
+        color: #555;
+        font-size: 0.84rem !important;
+        line-height: 1.55;
+    }
+
+    .paper-venue {
+        font-size: 0.84rem !important;
+        line-height: 1.55;
+    }
+
+    li:has(> .paper-title) > a > img {
+        width: auto;
+        height: 1.45rem;
+        vertical-align: middle;
+    }
+
+    li:has(> .paper-title) > .hf-paper-badge,
+    li:has(> .paper-title) > .paper-link-badge {
+        min-height: 1.45rem;
+        padding: 0 7px;
+        font-size: 0.78rem;
+        line-height: 1.35rem;
+    }
+
+    li:has(> .paper-title) > .hf-paper-badge {
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

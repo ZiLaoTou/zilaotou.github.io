@@ -1,0 +1,52 @@
+title: "Ruike Cao (曹瑞珂)"
+description: "Ruike Cao is a Ph.D. student at USTC working on agentic reinforcement learning, agent memory, personalization, and medical AI."
+url: "https://zilaotou.github.io"
+baseurl: ""
+repository: "ZiLaoTou/zilaotou.github.io"
+lang: en
+timezone: Asia/Shanghai
+author:
+  name: "Ruike Cao (曹瑞珂)"
+  avatar: "/images/avatar.jpg"
+  bio: "Ph.D. Student @ USTC"
+  location: "Hefei, China"
+  employer: "University of Science and Technology of China"
+  email: "ustc_crk@mail.ustc.edu.cn"
+  github: "ZiLaoTou"
+  googlescholar: "https://scholar.google.com/citations?user=eJp0l-QAAAAJ&hl=en"
+include:
+  - _pages
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .github
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from

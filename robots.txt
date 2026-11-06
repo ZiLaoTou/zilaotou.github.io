@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zilaotou.github.io/sitemap.xml
