@@ -48,8 +48,8 @@ I am happy to discuss research and potential collaborations. Feel free to [email
 <span class="anchor" id="honors"></span>
 # 🏆 Honors & Awards
 
-- **National Scholarship for Undergraduate Students**（本科生国家奖学金）
-- **National Scholarship for Master's Students**（硕士生国家奖学金）
+- **National Scholarship for Undergraduate Students**
+- **National Scholarship for Master's Students**
 
 <footer class="site-credit">
   <p>© {{ site.time | date: '%Y' }} Ruike Cao · Last updated: November 2026</p>
