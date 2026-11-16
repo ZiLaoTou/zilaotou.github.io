@@ -1,0 +1,16 @@
+<div itemscope itemtype="https://schema.org/Person" class="profile_box">
+  <div class="author__avatar">
+    <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of Ruike Cao" width="182" height="255" itemprop="image">
+  </div>
+  <div class="author__content">
+    <h2 class="author__name" itemprop="name">{{ site.author.name }}</h2>
+    <p class="author__bio">{{ site.author.bio }}</p>
+    <p class="profile-affiliation">University of Science and<br>Technology of China</p>
+    <p class="profile-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ site.author.location }}</p>
+  </div>
+  <ul class="author__contact-list social-icons" aria-label="Contact and academic profiles">
+    <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+    <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+    <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+  </ul>
+</div>
